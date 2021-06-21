@@ -44,5 +44,9 @@ public class Driver {
             driver=null;
         }
     }
+
+    public static void refreshPage(){
+        driver.navigate().refresh();
+    }
 }
 

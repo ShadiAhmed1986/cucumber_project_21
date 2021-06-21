@@ -57,4 +57,7 @@ public class RoomReservationPage {
 
     @FindBy(className = "bootbox-body")
     public WebElement actualSuccessMessage;
+
+    @FindBy(xpath = "//button[contains(text(), 'OK')]")
+    public WebElement okButton;
 }

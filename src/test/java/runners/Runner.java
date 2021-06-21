@@ -17,7 +17,7 @@ This will run the feature files
 @CucumberOptions(
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@room_reservation_1",
+        tags = "@room_reservation_2",
         dryRun = false
 )
 public class Runner {
