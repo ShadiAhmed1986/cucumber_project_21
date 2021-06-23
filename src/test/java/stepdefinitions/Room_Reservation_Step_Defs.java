@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import com.github.javafaker.Faker;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -10,6 +11,9 @@ import pages.RoomReservationPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
+
+import java.io.IOException;
+import java.util.List;
 
 public class Room_Reservation_Step_Defs {
     DefaultPage defaultPage = new DefaultPage();
@@ -157,10 +161,35 @@ public class Room_Reservation_Step_Defs {
 
     }
     @Then("user verifies the success_message {string}")
-    public void user_verifies_the_success_message(String string) {
+    public void user_verifies_the_success_message(String string) throws InterruptedException {
         ReusableMethods.waitForVisibility(roomReservationPage.actualSuccessMessage,10);
         Assert.assertEquals(roomReservationPage.actualSuccessMessage.getText(), string);
         roomReservationPage.okButton.click();
         Driver.refreshPage();
+    }
+
+    @Given("user enters all required fields")
+    public void user_enters_all_required_fields(DataTable roomData) {
+        List<String> testData = roomData.row(1);
+        Select select = new Select(roomReservationPage.idUser);
+        select.selectByVisibleText(testData.get(0));
+
+        Select select1 = new Select(roomReservationPage.idHotelRoom);
+        select1.selectByVisibleText(testData.get(1));
+
+        roomReservationPage.price.sendKeys(testData.get(2));
+        roomReservationPage.dateStart.sendKeys(testData.get(3));
+        roomReservationPage.dateEnd.sendKeys(testData.get(4));
+        roomReservationPage.adultAmount.sendKeys(testData.get(5));
+        roomReservationPage.childrenAmount.sendKeys(testData.get(6));
+        roomReservationPage.nameAndSurname.sendKeys(testData.get(7));
+        roomReservationPage.contactPhone.sendKeys(testData.get(8));
+        roomReservationPage.contactEmail.sendKeys(testData.get(9));
+        roomReservationPage.notes.sendKeys(testData.get(10));
+    }
+
+    @Then("capture the screeenshot")
+    public void capture_the_screeenshot() throws IOException {
+        ReusableMethods.getScreenshot("ScreenShot For The Test");
     }
 }

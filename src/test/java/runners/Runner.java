@@ -15,9 +15,14 @@ This will run the feature files
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
+        plugin = {
+                "html:target/default-cucumber-reports",
+                "json:target/json-report/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"
+        },
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@room_reservation_2",
+        tags = "@data_tables",
         dryRun = false
 )
 public class Runner {
