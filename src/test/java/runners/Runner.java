@@ -22,7 +22,7 @@ This will run the feature files
         },
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@data_tables",
+        tags = "@selenium_grid",
         dryRun = false
 )
 public class Runner {
