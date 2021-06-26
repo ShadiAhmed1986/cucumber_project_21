@@ -19,6 +19,7 @@ This will run the feature files
                 "html:target/default-cucumber-reports",
                 "json:target/json-report/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"
+//                "rerun:target/failedRerun.txt"
         },
         features = "./src/test/resources/features",
         glue = "stepdefinitions",

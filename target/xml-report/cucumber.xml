@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.575">
-    <testcase classname="verify application title" name="verify title on chrome" time="1.002">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.511">
+    <testcase classname="verify application title" name="verify title on chrome" time="1.037">
         <failure message="Unable to create new service: ChromeDriverService&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 155 milliseconds" type="org.openqa.selenium.SessionNotCreatedException">
             <![CDATA[Given user is on the application_login page with chrome.....................failed
-Then verify the title includes resortsline..................................skipped
+Then verify the title includes Resortsline..................................skipped
 
 StackTrace:
 org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
@@ -36,7 +36,7 @@ Command duration or timeout: 155 milliseconds
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at stepdefinitions.Selenium_Grid_Step_Defs.user_is_on_the_application_login_page_with_chrome(Selenium_Grid_Step_Defs.java:35)
+	at stepdefinitions.Selenium_Grid_Step_Defs.user_is_on_the_application_login_page_with_chrome(Selenium_Grid_Step_Defs.java:41)
 	at ✽.user is on the application_login page with chrome(file:///Users/shadiahmed/git/cucumber_framework_21/./src/test/resources/features/day22_selenium_gried.feature:4)
 Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
