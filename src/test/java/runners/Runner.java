@@ -18,12 +18,12 @@ This will run the feature files
         plugin = {
                 "html:target/default-cucumber-reports",
                 "json:target/json-report/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"
-//                "rerun:target/failedRerun.txt"
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failedRerun.txt"
         },
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@selenium_grid",
+        tags = "@google_search",
         dryRun = false
 )
 public class Runner {

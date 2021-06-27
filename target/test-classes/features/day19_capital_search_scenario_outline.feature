@@ -1,4 +1,4 @@
-@scenario_outline_1
+@scenario_outline_1 @smoke
 Feature: Multiple_google_search
   Background: user navigates to google page
     Given user is on google page

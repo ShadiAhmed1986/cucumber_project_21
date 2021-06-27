@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="167.973">
+    <testcase classname="Finding product on google search" name="TC01_iphone_search" time="21.249">
+        <system-out><![CDATA[Given user is on google page................................................passed
+Given user search for "iPhone"..............................................passed
+Then verify the result has "iPhone".........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC02_bmw_search" time="13.151">
+        <system-out><![CDATA[Given user is on google page................................................passed
+Given user search for "bmw".................................................passed
+Then verify the result has "bmw"............................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Finding product on google search" name="TC03_tesla_search" time="14.1">
+        <system-out><![CDATA[Given user is on google page................................................passed
+Given user search for "tesla"...............................................passed
+Then verify the result has "tesla"..........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Manager should create a reservation" name="TC01_manager_should_create_hotel_reservation" time="82.638">
+        <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: bootbox-body' (tried for 3 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+And user navigates to create_room_reservation_page..........................passed
+And user enters the IDUser..................................................passed
+And user enters the IDHotel.................................................passed
+And user enters the price...................................................passed
+And user enters the date_start..............................................passed
+And user enters the date_end................................................passed
+And user enters the adult_amount............................................passed
+And user enters the children_amount.........................................passed
+And user enters the contact_name............................................passed
+And user enters the contact_phone...........................................passed
+And user enters the contact_email...........................................passed
+And user enters the notes...................................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message......................................failed
+And close the application...................................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: bootbox-body' (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:80)
+	at stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:101)
+	at ✽.user verifies the success_message(file:///Users/shadiahmed/git/cucumber_framework_21/./src/test/resources/features/day19_room_reservation_1.feature:24)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".bootbox\-body"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/nw/ljrpkt657ng...}, goog:chromeOptions: {debuggerAddress: localhost:63129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa358b84b8b35415793471a54a971b2a
+*** Element info: {Using=class name, value=bootbox-body}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:80)
+	at stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></failure>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_01_reservation_manager_profile" time="9.928">
+        <system-out><![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Given user navigates to create_room_reservation_page........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room" time="6.67">
+        <system-out><![CDATA[And user enters the IDUser "manager"........................................passed
+And user enters the IDHotel "Sierra"........................................passed
+And user enters the price "1000"............................................passed
+And user enters the date_start "07/01/2021".................................passed
+And user enters the date_end "07/03/2021"...................................passed
+And user enters the adult_amount "3"........................................passed
+And user enters the children_amount "2".....................................passed
+And user enters the contact_name "test".....................................passed
+And user enters the contact_phone "(546) 345-6345"..........................passed
+And user enters the contact_email "test@gmail.com"..........................passed
+And user enters the notes "test"............................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message "RoomReservation was inserted successfully".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room_2" time="9.475">
+        <system-out><![CDATA[And user enters the IDUser "manager"........................................passed
+And user enters the IDHotel "Krystel".......................................passed
+And user enters the price "250".............................................passed
+And user enters the date_start "07/01/2021".................................passed
+And user enters the date_end "08/01/2021"...................................passed
+And user enters the adult_amount "1"........................................passed
+And user enters the children_amount "0".....................................passed
+And user enters the contact_name "My Boss"..................................passed
+And user enters the contact_phone "(999) 345-6345"..........................passed
+And user enters the contact_email "alone@gmail.com".........................passed
+And user enters the notes "Don't bother"....................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message "RoomReservation was inserted successfully".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room_3" time="8.47">
+        <system-out><![CDATA[And user enters the IDUser "manager"........................................passed
+And user enters the IDHotel "Karelle".......................................passed
+And user enters the price "100".............................................passed
+And user enters the date_start "07/01/2021".................................passed
+And user enters the date_end "07/02/2021"...................................passed
+And user enters the adult_amount "2"........................................passed
+And user enters the children_amount "1".....................................passed
+And user enters the contact_name "My Boss"..................................passed
+And user enters the contact_phone "(999) 345-6345"..........................passed
+And user enters the contact_email "both@gmail.com"..........................passed
+And user enters the notes "one day reservation".............................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message "RoomReservation was inserted successfully".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC03_Close the application" time="0.694">
+        <system-out><![CDATA[Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

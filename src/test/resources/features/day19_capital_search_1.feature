@@ -1,4 +1,4 @@
-@capital_search
+@capital_search @smoke
 Feature: Finding product on google search
   Background: use is navigate to google page
     Given user is on google page

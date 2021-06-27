@@ -1,4 +1,4 @@
-@room_reservation_2
+@room_reservation_2 @regression
 Feature: User_should_be_able_to_reserve_room
 
   Scenario Outline: TC_01_reservation_manager_profile

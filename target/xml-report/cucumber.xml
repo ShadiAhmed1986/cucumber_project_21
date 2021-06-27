@@ -1,102 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.511">
-    <testcase classname="verify application title" name="verify title on chrome" time="1.037">
-        <failure message="Unable to create new service: ChromeDriverService&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 155 milliseconds" type="org.openqa.selenium.SessionNotCreatedException">
-            <![CDATA[Given user is on the application_login page with chrome.....................failed
-Then verify the title includes Resortsline..................................skipped
-
-StackTrace:
-org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
-Driver info: driver.version: unknown
-Command duration or timeout: 155 milliseconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at stepdefinitions.Selenium_Grid_Step_Defs.user_is_on_the_application_login_page_with_chrome(Selenium_Grid_Step_Defs.java:41)
-	at ✽.user is on the application_login page with chrome(file:///Users/shadiahmed/git/cucumber_framework_21/./src/test/resources/features/day22_selenium_gried.feature:4)
-Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
-Driver info: driver.version: unknown
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.lambda$get$0(ServicedSession.java:135)
-	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:152)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-	at java.util.Collections$2.tryAdvance(Collections.java:4747)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
-	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
-	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
-	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.lang.Thread.run(Thread.java:834)
-]]>
-        </failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="43.083">
+    <testcase classname="Search Functionality" name="TC01_Iphone Search" time="15.197">
+        <system-out><![CDATA[Given user is on google page................................................passed
+Given user search for iPhone................................................passed
+Then verify the result has iPhone...........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC02_tea pot Search" time="13.936">
+        <system-out><![CDATA[Given user is on google page................................................passed
+And user search for tea pot.................................................passed
+Then verify the result has tea pot..........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC03_flower Search" time="13.175">
+        <system-out><![CDATA[Given user is on google page................................................passed
+And user search for flower..................................................passed
+Then verify the result has flower...........................................passed
+Then close the application..................................................passed
+]]></system-out>
     </testcase>
 </testsuite>

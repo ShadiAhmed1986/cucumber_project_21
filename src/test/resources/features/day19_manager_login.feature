@@ -1,4 +1,4 @@
-@feature_login
+@feature_login @smoke
 Feature: Manger_login_test
   @manager_login
   Scenario Outline: TC_01_reservation_manager_profile

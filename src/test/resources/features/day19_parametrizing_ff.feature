@@ -1,4 +1,4 @@
-@wip
+@wip @regression
 Feature: Finding product on google search
   Background: user navigates to google page
     Given user is on google page

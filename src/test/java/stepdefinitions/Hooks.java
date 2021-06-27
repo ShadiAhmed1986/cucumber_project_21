@@ -1,4 +1,6 @@
 package stepdefinitions;
+//jUnit @Before -> Before each @Test.
+//Cucumber @Before -> Before each Scenario. No need to extend Hooks class
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

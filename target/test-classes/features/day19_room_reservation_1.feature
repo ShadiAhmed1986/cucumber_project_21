@@ -1,4 +1,4 @@
-@room_reservation_1
+@room_reservation_1 @regression
 Feature: Manager should create a reservation
   Scenario: TC01_manager_should_create_hotel_reservation
     Given user is on the application_login page
