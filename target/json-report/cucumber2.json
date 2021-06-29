@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16519667000,
+              "duration": 14583997000,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:38:18.097Z",
+        "start_timestamp": "2021-06-27T18:11:33.280Z",
         "line": 8,
         "name": "TC01_iphone_search",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4218343000,
+              "duration": 3300594000,
               "status": "passed"
             },
             "line": 9,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 208366000,
+              "duration": 205837000,
               "status": "passed"
             },
             "line": 10,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 248605000,
+              "duration": 353669000,
               "status": "passed"
             },
             "line": 11,
@@ -99,7 +99,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8976208000,
+              "duration": 12384503000,
               "status": "passed"
             },
             "line": 4,
@@ -112,7 +112,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:38:39.507Z",
+        "start_timestamp": "2021-06-27T18:11:52.075Z",
         "line": 13,
         "name": "TC02_bmw_search",
         "description": "",
@@ -122,7 +122,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3387862000,
+              "duration": 2387274000,
               "status": "passed"
             },
             "line": 14,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 450195000,
+              "duration": 159857000,
               "status": "passed"
             },
             "line": 15,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 325368000,
+              "duration": 278837000,
               "status": "passed"
             },
             "line": 16,
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9730699000,
+              "duration": 10313735000,
               "status": "passed"
             },
             "line": 4,
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:38:52.718Z",
+        "start_timestamp": "2021-06-27T18:12:07.462Z",
         "line": 18,
         "name": "TC03_tesla_search",
         "description": "",
@@ -210,7 +210,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3819386000,
+              "duration": 2574867000,
               "status": "passed"
             },
             "line": 19,
@@ -228,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 189511000,
+              "duration": 140975000,
               "status": "passed"
             },
             "line": 20,
@@ -246,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 354080000,
+              "duration": 254790000,
               "status": "passed"
             },
             "line": 21,
@@ -295,7 +295,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-26T16:39:06.959Z",
+        "start_timestamp": "2021-06-27T18:12:20.911Z",
         "line": 3,
         "name": "TC01_manager_should_create_hotel_reservation",
         "description": "",
@@ -305,7 +305,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16045648000,
+              "duration": 11591542000,
               "status": "passed"
             },
             "line": 4,
@@ -317,7 +317,7 @@
           },
           {
             "result": {
-              "duration": 533566000,
+              "duration": 509875000,
               "status": "passed"
             },
             "line": 5,
@@ -335,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 620954000,
+              "duration": 276553000,
               "status": "passed"
             },
             "line": 6,
@@ -353,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 17342445000,
+              "duration": 7744218000,
               "status": "passed"
             },
             "line": 7,
@@ -365,7 +365,7 @@
           },
           {
             "result": {
-              "duration": 277509000,
+              "duration": 299123000,
               "status": "passed"
             },
             "line": 8,
@@ -383,7 +383,7 @@
           },
           {
             "result": {
-              "duration": 8852684000,
+              "duration": 6938338000,
               "status": "passed"
             },
             "line": 9,
@@ -395,7 +395,7 @@
           },
           {
             "result": {
-              "duration": 539358000,
+              "duration": 596954000,
               "status": "passed"
             },
             "line": 10,
@@ -407,7 +407,7 @@
           },
           {
             "result": {
-              "duration": 863617000,
+              "duration": 515853000,
               "status": "passed"
             },
             "line": 11,
@@ -419,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 519788000,
+              "duration": 291636000,
               "status": "passed"
             },
             "line": 12,
@@ -431,7 +431,7 @@
           },
           {
             "result": {
-              "duration": 1845714000,
+              "duration": 889665000,
               "status": "passed"
             },
             "line": 13,
@@ -443,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 514674000,
+              "duration": 823135000,
               "status": "passed"
             },
             "line": 14,
@@ -455,7 +455,7 @@
           },
           {
             "result": {
-              "duration": 143616000,
+              "duration": 202239000,
               "status": "passed"
             },
             "line": 15,
@@ -467,7 +467,7 @@
           },
           {
             "result": {
-              "duration": 333840000,
+              "duration": 306496000,
               "status": "passed"
             },
             "line": 16,
@@ -479,7 +479,7 @@
           },
           {
             "result": {
-              "duration": 1503700000,
+              "duration": 896474000,
               "status": "passed"
             },
             "line": 17,
@@ -491,7 +491,7 @@
           },
           {
             "result": {
-              "duration": 481726000,
+              "duration": 360219000,
               "status": "passed"
             },
             "line": 18,
@@ -503,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 853898000,
+              "duration": 648592000,
               "status": "passed"
             },
             "line": 19,
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 311693000,
+              "duration": 311099000,
               "status": "passed"
             },
             "line": 20,
@@ -527,7 +527,7 @@
           },
           {
             "result": {
-              "duration": 269730000,
+              "duration": 386869000,
               "status": "passed"
             },
             "line": 21,
@@ -539,7 +539,7 @@
           },
           {
             "result": {
-              "duration": 267248000,
+              "duration": 327062000,
               "status": "passed"
             },
             "line": 22,
@@ -551,7 +551,7 @@
           },
           {
             "result": {
-              "duration": 161357000,
+              "duration": 186125000,
               "status": "passed"
             },
             "line": 23,
@@ -563,8 +563,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.className: bootbox-body\u0027 (tried for 3 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:80)\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:101)\n\tat ✽.user verifies the success_message(file:///Users/shadiahmed/git/cucumber_framework_21/./src/test/resources/features/day19_room_reservation_1.feature:24)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".bootbox\\-body\"}\n  (Session info: chrome\u003d91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Shadis-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002711.4\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/nw/ljrpkt657ng...}, goog:chromeOptions: {debuggerAddress: localhost:63129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fa358b84b8b35415793471a54a971b2a\n*** Element info: {Using\u003dclass name, value\u003dbootbox-body}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:80)\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:101)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\n",
-              "duration": 30313909000,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.className: bootbox-body\u0027 (tried for 3 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:80)\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:101)\n\tat ✽.user verifies the success_message(file:///Users/shadiahmed/git/cucumber_framework_21/./src/test/resources/features/day19_room_reservation_1.feature:24)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".bootbox\\-body\"}\n  (Session info: chrome\u003d91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Shadis-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002711.4\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/nw/ljrpkt657ng...}, goog:chromeOptions: {debuggerAddress: localhost:51966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f2f5dbddc925045888834079281e133\n*** Element info: {Using\u003dclass name, value\u003dbootbox-body}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:80)\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:101)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\n",
+              "duration": 30285004000,
               "status": "failed"
             },
             "line": 24,
@@ -576,7 +576,7 @@
           },
           {
             "result": {
-              "duration": 182000,
+              "duration": 634000,
               "status": "skipped"
             },
             "line": 25,
@@ -625,7 +625,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-26T16:40:29.617Z",
+        "start_timestamp": "2021-06-27T18:13:25.425Z",
         "line": 14,
         "name": "TC_01_reservation_manager_profile",
         "description": "",
@@ -635,7 +635,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2139588000,
+              "duration": 7650967000,
               "status": "passed"
             },
             "line": 5,
@@ -647,7 +647,7 @@
           },
           {
             "result": {
-              "duration": 303758000,
+              "duration": 655966000,
               "status": "passed"
             },
             "line": 6,
@@ -665,7 +665,7 @@
           },
           {
             "result": {
-              "duration": 532402000,
+              "duration": 370618000,
               "status": "passed"
             },
             "line": 7,
@@ -683,7 +683,7 @@
           },
           {
             "result": {
-              "duration": 2375518000,
+              "duration": 5150062000,
               "status": "passed"
             },
             "line": 8,
@@ -695,7 +695,7 @@
           },
           {
             "result": {
-              "duration": 352812000,
+              "duration": 143571000,
               "status": "passed"
             },
             "line": 9,
@@ -713,7 +713,7 @@
           },
           {
             "result": {
-              "duration": 4219148000,
+              "duration": 9498096000,
               "status": "passed"
             },
             "line": 10,
@@ -734,7 +734,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:40:39.592Z",
+        "start_timestamp": "2021-06-27T18:13:48.981Z",
         "line": 36,
         "name": "TC_02_reserve_room",
         "description": "",
@@ -744,7 +744,7 @@
         "steps": [
           {
             "result": {
-              "duration": 437544000,
+              "duration": 651642000,
               "status": "passed"
             },
             "line": 18,
@@ -762,7 +762,7 @@
           },
           {
             "result": {
-              "duration": 229117000,
+              "duration": 473504000,
               "status": "passed"
             },
             "line": 19,
@@ -780,7 +780,7 @@
           },
           {
             "result": {
-              "duration": 156855000,
+              "duration": 283800000,
               "status": "passed"
             },
             "line": 20,
@@ -798,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 289782000,
+              "duration": 353205000,
               "status": "passed"
             },
             "line": 21,
@@ -816,7 +816,7 @@
           },
           {
             "result": {
-              "duration": 254879000,
+              "duration": 259000000,
               "status": "passed"
             },
             "line": 22,
@@ -834,7 +834,7 @@
           },
           {
             "result": {
-              "duration": 139230000,
+              "duration": 295709000,
               "status": "passed"
             },
             "line": 23,
@@ -852,7 +852,7 @@
           },
           {
             "result": {
-              "duration": 186534000,
+              "duration": 455743000,
               "status": "passed"
             },
             "line": 24,
@@ -870,7 +870,7 @@
           },
           {
             "result": {
-              "duration": 150698000,
+              "duration": 299790000,
               "status": "passed"
             },
             "line": 25,
@@ -888,7 +888,7 @@
           },
           {
             "result": {
-              "duration": 188924000,
+              "duration": 321035000,
               "status": "passed"
             },
             "line": 26,
@@ -906,7 +906,7 @@
           },
           {
             "result": {
-              "duration": 235032000,
+              "duration": 228666000,
               "status": "passed"
             },
             "line": 27,
@@ -924,7 +924,7 @@
           },
           {
             "result": {
-              "duration": 213592000,
+              "duration": 214390000,
               "status": "passed"
             },
             "line": 28,
@@ -942,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 253521000,
+              "duration": 355104000,
               "status": "passed"
             },
             "line": 29,
@@ -954,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 184095000,
+              "duration": 284279000,
               "status": "passed"
             },
             "line": 30,
@@ -966,7 +966,7 @@
           },
           {
             "result": {
-              "duration": 206310000,
+              "duration": 309767000,
               "status": "passed"
             },
             "line": 31,
@@ -978,7 +978,7 @@
           },
           {
             "result": {
-              "duration": 3537631000,
+              "duration": 2642156000,
               "status": "passed"
             },
             "line": 32,
@@ -1005,7 +1005,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:40:46.310Z",
+        "start_timestamp": "2021-06-27T18:13:56.473Z",
         "line": 37,
         "name": "TC_02_reserve_room",
         "description": "",
@@ -1015,7 +1015,7 @@
         "steps": [
           {
             "result": {
-              "duration": 717987000,
+              "duration": 641312000,
               "status": "passed"
             },
             "line": 18,
@@ -1033,7 +1033,7 @@
           },
           {
             "result": {
-              "duration": 343378000,
+              "duration": 260174000,
               "status": "passed"
             },
             "line": 19,
@@ -1051,7 +1051,7 @@
           },
           {
             "result": {
-              "duration": 284776000,
+              "duration": 656287000,
               "status": "passed"
             },
             "line": 20,
@@ -1069,7 +1069,7 @@
           },
           {
             "result": {
-              "duration": 607628000,
+              "duration": 1108114000,
               "status": "passed"
             },
             "line": 21,
@@ -1087,7 +1087,7 @@
           },
           {
             "result": {
-              "duration": 522596000,
+              "duration": 611597000,
               "status": "passed"
             },
             "line": 22,
@@ -1105,7 +1105,7 @@
           },
           {
             "result": {
-              "duration": 497058000,
+              "duration": 189470000,
               "status": "passed"
             },
             "line": 23,
@@ -1123,7 +1123,7 @@
           },
           {
             "result": {
-              "duration": 858178000,
+              "duration": 341116000,
               "status": "passed"
             },
             "line": 24,
@@ -1141,7 +1141,7 @@
           },
           {
             "result": {
-              "duration": 743487000,
+              "duration": 388746000,
               "status": "passed"
             },
             "line": 25,
@@ -1159,7 +1159,7 @@
           },
           {
             "result": {
-              "duration": 578095000,
+              "duration": 520082000,
               "status": "passed"
             },
             "line": 26,
@@ -1177,7 +1177,7 @@
           },
           {
             "result": {
-              "duration": 433517000,
+              "duration": 515276000,
               "status": "passed"
             },
             "line": 27,
@@ -1195,7 +1195,7 @@
           },
           {
             "result": {
-              "duration": 343685000,
+              "duration": 224957000,
               "status": "passed"
             },
             "line": 28,
@@ -1213,7 +1213,7 @@
           },
           {
             "result": {
-              "duration": 241401000,
+              "duration": 166970000,
               "status": "passed"
             },
             "line": 29,
@@ -1225,7 +1225,7 @@
           },
           {
             "result": {
-              "duration": 192996000,
+              "duration": 262180000,
               "status": "passed"
             },
             "line": 30,
@@ -1237,7 +1237,7 @@
           },
           {
             "result": {
-              "duration": 257245000,
+              "duration": 301605000,
               "status": "passed"
             },
             "line": 31,
@@ -1249,7 +1249,7 @@
           },
           {
             "result": {
-              "duration": 2841912000,
+              "duration": 2664986000,
               "status": "passed"
             },
             "line": 32,
@@ -1276,7 +1276,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:40:55.846Z",
+        "start_timestamp": "2021-06-27T18:14:05.386Z",
         "line": 38,
         "name": "TC_02_reserve_room",
         "description": "",
@@ -1286,7 +1286,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1566342000,
+              "duration": 829395000,
               "status": "passed"
             },
             "line": 18,
@@ -1304,7 +1304,7 @@
           },
           {
             "result": {
-              "duration": 320746000,
+              "duration": 392400000,
               "status": "passed"
             },
             "line": 19,
@@ -1322,7 +1322,7 @@
           },
           {
             "result": {
-              "duration": 295719000,
+              "duration": 274677000,
               "status": "passed"
             },
             "line": 20,
@@ -1340,7 +1340,7 @@
           },
           {
             "result": {
-              "duration": 785982000,
+              "duration": 670022000,
               "status": "passed"
             },
             "line": 21,
@@ -1358,7 +1358,7 @@
           },
           {
             "result": {
-              "duration": 653526000,
+              "duration": 621340000,
               "status": "passed"
             },
             "line": 22,
@@ -1376,7 +1376,7 @@
           },
           {
             "result": {
-              "duration": 197495000,
+              "duration": 210921000,
               "status": "passed"
             },
             "line": 23,
@@ -1394,7 +1394,7 @@
           },
           {
             "result": {
-              "duration": 283890000,
+              "duration": 196362000,
               "status": "passed"
             },
             "line": 24,
@@ -1412,7 +1412,7 @@
           },
           {
             "result": {
-              "duration": 322644000,
+              "duration": 270510000,
               "status": "passed"
             },
             "line": 25,
@@ -1430,7 +1430,7 @@
           },
           {
             "result": {
-              "duration": 301022000,
+              "duration": 519518000,
               "status": "passed"
             },
             "line": 26,
@@ -1448,7 +1448,7 @@
           },
           {
             "result": {
-              "duration": 269714000,
+              "duration": 294243000,
               "status": "passed"
             },
             "line": 27,
@@ -1466,7 +1466,7 @@
           },
           {
             "result": {
-              "duration": 214407000,
+              "duration": 294848000,
               "status": "passed"
             },
             "line": 28,
@@ -1484,7 +1484,7 @@
           },
           {
             "result": {
-              "duration": 153706000,
+              "duration": 207372000,
               "status": "passed"
             },
             "line": 29,
@@ -1496,7 +1496,7 @@
           },
           {
             "result": {
-              "duration": 194324000,
+              "duration": 213931000,
               "status": "passed"
             },
             "line": 30,
@@ -1508,7 +1508,7 @@
           },
           {
             "result": {
-              "duration": 128241000,
+              "duration": 173253000,
               "status": "passed"
             },
             "line": 31,
@@ -1520,7 +1520,7 @@
           },
           {
             "result": {
-              "duration": 2770956000,
+              "duration": 2471125000,
               "status": "passed"
             },
             "line": 32,
@@ -1547,7 +1547,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:41:04.326Z",
+        "start_timestamp": "2021-06-27T18:14:13.052Z",
         "line": 40,
         "name": "TC03_Close the application",
         "description": "",
@@ -1557,7 +1557,7 @@
         "steps": [
           {
             "result": {
-              "duration": 693392000,
+              "duration": 473078000,
               "status": "passed"
             },
             "line": 41,

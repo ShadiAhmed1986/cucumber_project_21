@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="43.083">
-    <testcase classname="Search Functionality" name="TC01_Iphone Search" time="15.197">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="50.511">
+    <testcase classname="Search Functionality" name="TC01_Iphone Search" time="24.133">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for iPhone................................................passed
 Then verify the result has iPhone...........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search Functionality" name="TC02_tea pot Search" time="13.936">
+    <testcase classname="Search Functionality" name="TC02_tea pot Search" time="14.071">
         <system-out><![CDATA[Given user is on google page................................................passed
 And user search for tea pot.................................................passed
 Then verify the result has tea pot..........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search Functionality" name="TC03_flower Search" time="13.175">
+    <testcase classname="Search Functionality" name="TC03_flower Search" time="11.413">
         <system-out><![CDATA[Given user is on google page................................................passed
 And user search for flower..................................................passed
 Then verify the result has flower...........................................passed

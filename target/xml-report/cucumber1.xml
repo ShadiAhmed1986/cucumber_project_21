@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="263.337">
-    <testcase classname="Finding product on google search" name="TC01_paris_search" time="15.749">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="222.708">
+    <testcase classname="Finding product on google search" name="TC01_paris_search" time="24.475">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "paris"...............................................passed
 Then verify the result has "paris"..........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Finding product on google search" name="TC02_london_search" time="12.395">
+    <testcase classname="Finding product on google search" name="TC02_london_search" time="12.523">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "london"..............................................passed
 Then verify the result has "london".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Finding product on google search" name="TC03_berlin_search" time="12.532">
+    <testcase classname="Finding product on google search" name="TC03_berlin_search" time="11.94">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "berlin"..............................................passed
 Then verify the result has "berlin".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Finding product on google search" name="TC04_ankara_search" time="14.341">
+    <testcase classname="Finding product on google search" name="TC04_ankara_search" time="11.957">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "ankara"..............................................passed
 Then verify the result has "ankara".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Finding product on google search" name="TC05_baku_search" time="14.394">
+    <testcase classname="Finding product on google search" name="TC05_baku_search" time="13.41">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "baku"................................................passed
 Then verify the result has "baku"...........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Multiple_google_search" name="searching_word_capitals" time="14.078">
+    <testcase classname="Multiple_google_search" name="searching_word_capitals" time="17.039">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "paris"...............................................passed
 Then verify the result has "paris"..........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Multiple_google_search" name="searching_word_capitals_2" time="14.394">
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_2" time="13.49">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "london"..............................................passed
 Then verify the result has "london".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Multiple_google_search" name="searching_word_capitals_3" time="14.211">
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_3" time="12.791">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "berlin"..............................................passed
 Then verify the result has "berlin".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Multiple_google_search" name="searching_word_capitals_4" time="14.765">
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_4" time="10.318">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "ankara"..............................................passed
 Then verify the result has "ankara".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Multiple_google_search" name="searching_word_capitals_5" time="11.914">
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_5" time="11.627">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "baku"................................................passed
 Then verify the result has "baku"...........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile" time="30.595">
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile" time="15.283">
         <system-out><![CDATA[Given user is on the application_login page.................................passed
 And user enters manager_id "manager"........................................passed
 And user enters manager_password "Manager1!"................................passed
@@ -79,7 +79,7 @@ And verify login "manager" is displayed.....................................pass
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile_2" time="32.161">
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile_2" time="16.63">
         <system-out><![CDATA[Given user is on the application_login page.................................passed
 And user enters manager_id "manager2".......................................passed
 And user enters manager_password "Manager2!"................................passed
@@ -88,7 +88,7 @@ And verify login "manager2" is displayed....................................pass
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile_3" time="30.995">
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile_3" time="28.823">
         <system-out><![CDATA[Given user is on the application_login page.................................passed
 And user enters manager_id "manager3".......................................passed
 And user enters manager_password "Manager3!"................................passed
@@ -97,7 +97,7 @@ And verify login "manager3" is displayed....................................pass
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Manger_login_test" name="TC_02_reservation_admin_profile" time="29.359">
+    <testcase classname="Manger_login_test" name="TC_02_reservation_admin_profile" time="20.572">
         <system-out><![CDATA[Given user is on the application_login page.................................passed
 And user enters manager_id "admin"..........................................passed
 And user enters manager_password "Techproed123!"............................passed

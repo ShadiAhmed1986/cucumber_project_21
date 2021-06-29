@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12771003000,
+              "duration": 20788585000,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:37:23.778Z",
+        "start_timestamp": "2021-06-27T18:10:33.777Z",
         "line": 6,
         "name": "TC01_Iphone Search",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1964927000,
+              "duration": 2813601000,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 182106000,
+              "duration": 159737000,
               "status": "passed"
             },
             "line": 9,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 219136000,
+              "duration": 299934000,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9287455000,
+              "duration": 10247605000,
               "status": "passed"
             },
             "line": 5,
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:37:39.101Z",
+        "start_timestamp": "2021-06-27T18:10:58.024Z",
         "line": 13,
         "name": "TC02_tea pot Search",
         "description": "",
@@ -107,7 +107,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4154743000,
+              "duration": 3404543000,
               "status": "passed"
             },
             "line": 15,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 171944000,
+              "duration": 150574000,
               "status": "passed"
             },
             "line": 16,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 309420000,
+              "duration": 256822000,
               "status": "passed"
             },
             "line": 17,
@@ -157,7 +157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9224031000,
+              "duration": 8598977000,
               "status": "passed"
             },
             "line": 5,
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-26T16:37:53.188Z",
+        "start_timestamp": "2021-06-27T18:11:12.223Z",
         "line": 20,
         "name": "TC03_flower Search",
         "description": "",
@@ -180,7 +180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3437876000,
+              "duration": 2376550000,
               "status": "passed"
             },
             "line": 22,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 158029000,
+              "duration": 167475000,
               "status": "passed"
             },
             "line": 23,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 349163000,
+              "duration": 263615000,
               "status": "passed"
             },
             "line": 24,

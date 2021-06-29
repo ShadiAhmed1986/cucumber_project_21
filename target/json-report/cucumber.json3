@@ -1,0 +1,90 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T15:38:21.802Z",
+        "line": 3,
+        "name": "Read_hotel_reservation",
+        "description": "",
+        "id": "read-database-data;read-hotel-reservation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2032826000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user connects to the database",
+            "match": {
+              "location": "database_stepdefinitions.Read_Step_Defs.user_connects_to_the_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260307000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user gets \"Price\" from \"tHOTELROOM\" table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"tHOTELROOM\"",
+                  "offset": 23
+                }
+              ],
+              "location": "database_stepdefinitions.Read_Step_Defs.user_gets_from_table(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442471000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user reads all rows in the \"Price\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 27
+                }
+              ],
+              "location": "database_stepdefinitions.Read_Step_Defs.user_reads_all_rows_in_the_column(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db_read"
+          }
+        ]
+      }
+    ],
+    "name": "Read_database_data",
+    "description": "",
+    "id": "read-database-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/db_features/day25_jdbc_read.feature",
+    "tags": [
+      {
+        "name": "@db_read",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

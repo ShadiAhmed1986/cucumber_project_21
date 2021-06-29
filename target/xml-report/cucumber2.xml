@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="167.973">
-    <testcase classname="Finding product on google search" name="TC01_iphone_search" time="21.249">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="161.081">
+    <testcase classname="Finding product on google search" name="TC01_iphone_search" time="18.511">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "iPhone"..............................................passed
 Then verify the result has "iPhone".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Finding product on google search" name="TC02_bmw_search" time="13.151">
+    <testcase classname="Finding product on google search" name="TC02_bmw_search" time="15.347">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "bmw".................................................passed
 Then verify the result has "bmw"............................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Finding product on google search" name="TC03_tesla_search" time="14.1">
+    <testcase classname="Finding product on google search" name="TC03_tesla_search" time="13.302">
         <system-out><![CDATA[Given user is on google page................................................passed
 Given user search for "tesla"...............................................passed
 Then verify the result has "tesla"..........................................passed
 Then close the application..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Manager should create a reservation" name="TC01_manager_should_create_hotel_reservation" time="82.638">
+    <testcase classname="Manager should create a reservation" name="TC01_manager_should_create_hotel_reservation" time="64.437">
         <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: bootbox-body' (tried for 3 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user is on the application_login page.................................passed
 And user enters manager_id "manager"........................................passed
 And user enters manager_password "Manager1!"................................passed
@@ -58,8 +58,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Shadis-MacBook-Air.local', ip: 'fe80:0:0:0:14da:4f2f:7cdc:bbf6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/nw/ljrpkt657ng...}, goog:chromeOptions: {debuggerAddress: localhost:63129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa358b84b8b35415793471a54a971b2a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/nw/ljrpkt657ng...}, goog:chromeOptions: {debuggerAddress: localhost:51966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f2f5dbddc925045888834079281e133
 *** Element info: {Using=class name, value=bootbox-body}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -135,7 +135,7 @@ Session ID: fa358b84b8b35415793471a54a971b2a
 	at java.base/java.lang.Thread.run(Thread.java:832)
 ]]></failure>
     </testcase>
-    <testcase classname="User_should_be_able_to_reserve_room" name="TC_01_reservation_manager_profile" time="9.928">
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_01_reservation_manager_profile" time="23.482">
         <system-out><![CDATA[Given user is on the application_login page.................................passed
 And user enters manager_id "manager"........................................passed
 And user enters manager_password "Manager1!"................................passed
@@ -144,7 +144,7 @@ And verify login "manager" is displayed.....................................pass
 Given user navigates to create_room_reservation_page........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room" time="6.67">
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room" time="7.442">
         <system-out><![CDATA[And user enters the IDUser "manager"........................................passed
 And user enters the IDHotel "Sierra"........................................passed
 And user enters the price "1000"............................................passed
@@ -162,7 +162,7 @@ And user clicks on the save_button..........................................pass
 Then user verifies the success_message "RoomReservation was inserted successfully".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room_2" time="9.475">
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room_2" time="8.866">
         <system-out><![CDATA[And user enters the IDUser "manager"........................................passed
 And user enters the IDHotel "Krystel".......................................passed
 And user enters the price "250".............................................passed
@@ -180,7 +180,7 @@ And user clicks on the save_button..........................................pass
 Then user verifies the success_message "RoomReservation was inserted successfully".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room_3" time="8.47">
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_02_reserve_room_3" time="7.652">
         <system-out><![CDATA[And user enters the IDUser "manager"........................................passed
 And user enters the IDHotel "Karelle".......................................passed
 And user enters the price "100".............................................passed
@@ -198,7 +198,7 @@ And user clicks on the save_button..........................................pass
 Then user verifies the success_message "RoomReservation was inserted successfully".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="User_should_be_able_to_reserve_room" name="TC03_Close the application" time="0.694">
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC03_Close the application" time="0.473">
         <system-out><![CDATA[Then close the application..................................................passed
 ]]></system-out>
     </testcase>
