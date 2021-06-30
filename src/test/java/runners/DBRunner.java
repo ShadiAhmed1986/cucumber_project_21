@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features/db_features",
         glue = "database_stepdefinitions",
-        tags = "@db_read",
+        tags = "@db_create",
         dryRun = false
 )
 //This class is only used for running database related tests

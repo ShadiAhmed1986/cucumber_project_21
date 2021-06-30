@@ -1,6 +1,7 @@
 package database_stepdefinitions;
 
 import io.cucumber.java.en.Given;
+import org.junit.Assert;
 import utilities.DBUtils;
 
 import java.sql.*;
@@ -20,6 +21,7 @@ public class Read_Step_Defs {
 //        Call the appropriate method
       DBUtils.createConnection();
     }
+
     @Given("user gets {string} from {string} table")
     public void user_gets_from_table(String column, String table) {
 //        String query = "SELECT Price FROM tHOTELROOM";
@@ -34,17 +36,18 @@ public class Read_Step_Defs {
 //      We will use Result set to do actions
 //        resultSet.next() -> takes us to the next row
 //        resultSet -> DBUtils.getResultset()
-        DBUtils.getResultset().absolute(3);//Takes me to 4th row
+        DBUtils.getResultset().absolute(3);//Takes me to 3rd row
         //Getting the data from the CURRENT POSITION
-        Object thirdColumnObject=DBUtils.getResultset().getObject(column);//Getting 4th column data on "Price" column
+        Object thirdColumnObject=DBUtils.getResultset().getObject(column);//Getting 3rd column data on "Price" column
         System.out.println("THIRD : "+thirdColumnObject);
+
 //        Go to the next row
         DBUtils.getResultset().next();
         Object next1=DBUtils.getResultset().getObject(column);//Getting 4th column data on "Price" column
         System.out.println("FOURTH : "+next1);//425
 
         DBUtils.getResultset().next();
-        Object next2=DBUtils.getResultset().getObject(column);//Getting 4th column data on "Price" column
+        Object next2=DBUtils.getResultset().getObject(column);//Getting 5th column data on "Price" column
         System.out.println("FIFTH : "+next2);//425
 
         DBUtils.getResultset().next();//on the 3rd row
@@ -63,8 +66,19 @@ public class Read_Step_Defs {
 
 //        GO TO LAST COLUMN USING last() method. ------   first()->FIRST COLUMN
         DBUtils.getResultset().last();
-//        Ican get data as String using getString() method
+//        I can get data as String using getString() method
         String lastData = DBUtils.getResultset().getString(column);
         System.out.println("LAST DATA " + lastData);
+    }
+
+    @Given("users gets the value in row {int} in {string} column and verifies the value is {string}")
+    public void users_gets_the_value_in_row_in_column_and_verifies_the_value_is(Integer row, String column, String value) throws SQLException {
+        DBUtils.getResultset().absolute(row);
+        Object data = DBUtils.getResultset().getObject(column);
+        String expectedData = value;
+        String actualData = data.toString();
+
+        System.out.println("The data in row " + row + ",column " + column +" : " + value);
+        Assert.assertEquals(expectedData,actualData);
     }
 }

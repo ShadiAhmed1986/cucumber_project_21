@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.575">
-    <testcase classname="Read_database_data" name="Read_hotel_reservation" time="3.023">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.6">
+    <testcase classname="Create_hotel_room" name="Creating_hotel_room_test" time="3.646">
         <system-out>
             <![CDATA[Given user connects to the database.........................................passed
-And user gets "Price" from "tHOTELROOM" table...............................passed
-And user reads all rows in the "Price" column...............................passed
+When user creates new hotel with a "'5500', 'Jumping Beans', 'Beans Street','4564545','seleniumomrumuyedin@gmail.com'".passed
+Then verify the hotel is created successfully...............................passed
+Then close the connection...................................................passed
 ]]>
         </system-out>
     </testcase>

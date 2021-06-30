@@ -3,17 +3,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-29T15:38:21.802Z",
+        "start_timestamp": "2021-06-30T15:25:47.930Z",
         "line": 3,
-        "name": "Read_hotel_reservation",
+        "name": "Creating_hotel_room_test",
         "description": "",
-        "id": "read-database-data;read-hotel-reservation",
+        "id": "create-hotel-room;creating-hotel-room-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2032826000,
+              "duration": 2332089000,
               "status": "passed"
             },
             "line": 4,
@@ -25,60 +25,62 @@
           },
           {
             "result": {
-              "duration": 260307000,
+              "duration": 162010000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user gets \"Price\" from \"tHOTELROOM\" table",
+            "line": 5,
+            "name": "user creates new hotel with a \"\u00275500\u0027, \u0027Jumping Beans\u0027, \u0027Beans Street\u0027,\u00274564545\u0027,\u0027seleniumomrumuyedin@gmail.com\u0027\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Price\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"tHOTELROOM\"",
-                  "offset": 23
+                  "val": "\"\u00275500\u0027, \u0027Jumping Beans\u0027, \u0027Beans Street\u0027,\u00274564545\u0027,\u0027seleniumomrumuyedin@gmail.com\u0027\"",
+                  "offset": 30
                 }
               ],
-              "location": "database_stepdefinitions.Read_Step_Defs.user_gets_from_table(java.lang.String,java.lang.String)"
+              "location": "database_stepdefinitions.Create_Step_Defs.user_creates_new_hotel_with_a(java.lang.String)"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 442471000,
+              "duration": 543238000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user reads all rows in the \"Price\" column",
+            "line": 6,
+            "name": "verify the hotel is created successfully",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Price\"",
-                  "offset": 27
-                }
-              ],
-              "location": "database_stepdefinitions.Read_Step_Defs.user_reads_all_rows_in_the_column(java.lang.String)"
+              "location": "database_stepdefinitions.Create_Step_Defs.verify_the_hotel_is_created_successfully()"
             },
-            "keyword": "And "
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151249000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the connection",
+            "match": {
+              "location": "database_stepdefinitions.Create_Step_Defs.close_the_connection()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@db_read"
+            "name": "@db_create"
           }
         ]
       }
     ],
-    "name": "Read_database_data",
+    "name": "Create_hotel_room",
     "description": "",
-    "id": "read-database-data",
+    "id": "create-hotel-room",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/db_features/day25_jdbc_read.feature",
+    "uri": "file:src/test/resources/features/db_features/day26_jdbc_create.feature",
     "tags": [
       {
-        "name": "@db_read",
+        "name": "@db_create",
         "type": "Tag",
         "location": {
           "line": 1,
